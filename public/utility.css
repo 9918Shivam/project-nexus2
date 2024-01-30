@@ -69,50 +69,6 @@ nav li:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-.flex{
-    display: flex;
-    align-items: right;
-}
-
-.items-center{
-    align-items: right;
-    margin-left:0px ;
-}
-.mx-2{
-    margin-left: 0px;
-    margin-right: 12px;
-    align-items: right;
-}
-.kAUthO {
-    padding-bottom: 0px;
-    border-radius: 0px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-color: transparent;
-    border-width: 0px 0px 0.2rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container{
     max-width: 1100px;
     text-align: center;
