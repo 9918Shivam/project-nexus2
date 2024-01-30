@@ -14,7 +14,7 @@ app.set('view engine','ejs');
 
 app.use(express.static("public"));
 app.get("/",(req,res)=>{
-    res.render("home");
+    res.render("index");
 });
 
 app.get("/signup",(req,res)=>{
@@ -61,7 +61,7 @@ app.post('/login',async(req,res)=>{
             //compairing the hashed password with plain text 
             const isPasswoedMatch =await bcrypt.compare(req.body.password,check.password);
             if(isPasswoedMatch){
-                res.render('home');
+                res.render('index');
             }else{
                 res.send("Wrong password.");
             }
